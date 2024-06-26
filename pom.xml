@@ -42,18 +42,13 @@
         <android.buildToolsVersion>33.0.0</android.buildToolsVersion>
     </properties>
 
-  <build>
-   <plugins>
+   <build>
+        <plugins>
             <plugin>
                 <groupId>com.simpligility.maven.plugins</groupId>
                 <artifactId>android-maven-plugin</artifactId>
                 <version>4.6.0</version>
                 <extensions>true</extensions>
-                <configuration>
-                         <platform>${android.compileSdkVersion}</platform>
-                        <buildTools>${android.buildToolsVersion}</buildTools>
-                    </sdk>
-                </configuration>
             </plugin>
         </plugins>
     </build>
