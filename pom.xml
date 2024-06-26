@@ -39,14 +39,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <an        <android.buildToolsVersion>33.0.0</android.buildToolsVersion>
+        <android.buildToolsVersion>33.0.0</android.buildToolsVersion>
     </properties>
 
     <dependencies>
         <!-- Add your dependencies here -->
     </dependencies>
-
-    <        <plugins>
+   <plugins>
             <plugin>
                 <groupId>com.simpligility.maven.plugins</groupId>
                 <artifactId>android-maven-plugin</artifactId>
