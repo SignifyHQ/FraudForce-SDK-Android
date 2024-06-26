@@ -1,6 +1,3 @@
-jdk:
-  - openjdk11
-before_install:
-  - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
-  - source install-jdk.sh --feature 11
-  - java -version
+install: 
+  - FILE="-Dfile=fraudforce-lib-release-5.1.0.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
