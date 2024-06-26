@@ -5,8 +5,8 @@
 
   <groupId>io.github.signifyhq</groupId>
   <artifactId>fraudforce-lib-release</artifactId>
-  <version>5.1.1</version>
-  <packaging>jar</packaging>
+  <version>5.1.0</version>
+  <packaging>aar</packaging>
   
   <name>FraudForce</name>
   <description>FraudForce</description>
