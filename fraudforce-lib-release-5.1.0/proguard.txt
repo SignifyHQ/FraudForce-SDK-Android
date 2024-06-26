@@ -1,0 +1,18 @@
+-keep public class com.iovation.mobile.android.FraudForceManager {
+    public java.lang.String getBlackbox(android.content.Context);
+    public void refresh(android.content.Context);
+    public void initialize(android.content.Context);
+    public void initialize(com.iovation.mobile.android.FraudForceConfiguration, android.content.Context);
+    public static com.iovation.mobile.android.FraudForceManager INSTANCE;
+}
+
+-keep public class com.iovation.mobile.android.FraudForceConfiguration
+
+-keep public class com.iovation.mobile.android.FraudForceConfiguration$Builder {
+    *;
+}
+
+-keep public class com.iovation.mobile.android.details.RP {
+    private native java.lang.String a();
+    private native java.lang.String b();
+}

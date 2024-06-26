@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ff_ep" translatable="false">https://mobile.confsettings.com/</string>
+    <string name="ff_sdk_b" translatable="false">05-04-2023-15-38-47.main</string>
+    <string name="ff_sdk_ver" translatable="false">5.1.0</string>
+</resources>
