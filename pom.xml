@@ -42,9 +42,7 @@
         <android.buildToolsVersion>33.0.0</android.buildToolsVersion>
     </properties>
 
-    <dependencies>
-        <!-- Add your dependencies here -->
-    </dependencies>
+  <build>
    <plugins>
             <plugin>
                 <groupId>com.simpligility.maven.plugins</groupId>
